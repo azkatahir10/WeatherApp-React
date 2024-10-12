@@ -1,0 +1,58 @@
+// src/scss/WeatherCard.scss
+.weather-card {
+    display: flex;
+    width: 60%;
+    height: 70vh; /* Adjust height as needed */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5); /* Darker semi-transparent black */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Slightly darker shadow */
+  }
+  
+  .left-half {
+    flex: 1;
+    padding: 2rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content:right;
+  }
+  
+  .search-bar {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  button {
+    padding: 0.2rem 0.2rem;
+    border: none;
+    width:90px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .info h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .right-half {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+  }
+  

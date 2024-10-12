@@ -1,0 +1,55 @@
+// Header.scss
+
+// Variables
+$header-bg-color: #333;
+$text-color: #fff;
+$font-size-large: 1.5rem;
+$font-size-medium: 1rem;
+$spacing: 1rem;
+$nav-spacing: 1.5rem;
+
+// Header styles
+.header {
+  background-color: #bd4f6c;
+  background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+ /* Desired background color */
+  padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+  width: 100%; /* Full width */
+  height: 40px; /* Set a fixed height for the navbar */
+  position: fixed; /* Fixed position to stay at the top */
+  top: 0; /* Aligns to the top */
+  left: 0; /* Aligns to the left */
+  z-index: 1000; /* Ensures it stays above other content */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between logo and nav */
+  align-items: center; /* Center items vertically */
+}
+
+h2{
+  color: #2b4162;
+}
+
+.logo img {
+  margin-top: 1rem;
+  height: 70px; /* Adjust the height of the logo image */
+  border-radius: 50px; /* Optional: adjust the border radius */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.nav .nav-links {
+  list-style: none;
+  display: flex; /* Horizontally align the nav items */
+  justify-content: flex-end; /* Align links to the right */
+  gap: 2rem; /* Space between links */
+  padding-right: 1rem;
+}
+
+.nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Link color */
+  padding: 0.5rem; /* Add padding to links for better click area */
+}
+
+.nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

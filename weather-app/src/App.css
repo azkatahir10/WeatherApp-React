@@ -1,0 +1,58 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./assets/img/banner.jpg");
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.header {
+  background-color: #bd4f6c;
+  background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+  color: white;
+  padding: 1rem;
+}
+
+.search-bar {
+  margin: 1rem 0;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.search-bar button {
+  padding: 0.2rem 0.2rem;
+  border: none;
+  border-radius: 7px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.weather-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #4a90e2;
+  width:50%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.error {
+  color: red;
+}
